@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* wrap */
+#wrap {
+    width:960px;
+    margin: 0 auto;
+    /*background-color: black;*/
+}
+
+/* sidebar */
+#sidebar {
+    width: 240px;
+    height: 600px;
+    float: left;
+    padding: 0;
+    /*background-color: green;*/
+}
+
+#sidebar h1{
+    text-align:center;
+}
+
+#sidebar p{
+    text-align:center;
+}
+
+/* main */
+
+#main {
+    width: 710px;
+    height: 600px;
+    /*background-color: yellow;*/
+    padding: 0 0 0 10;
+    margin: 0 auto;
+    float: right;
+}
+
+#mainText {
+    width: 500px;
+    height: 600px;
+    padding: 0;
+    margin: 0 auto;
+    float: left;
+    position:absolute;
+    /*background-color: blue;*/
+}
+
+#mainText h1{
+    text-align:center;
+}
+
+#mainText p{
+    padding: 0 0 0 10px;
+}
+
+#image{
+    width: 210px;
+    height: 139px;
+    margin: 0 auto;
+    float: right;
+    /*background-color: purple;*/
+}
